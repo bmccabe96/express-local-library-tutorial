@@ -9,6 +9,11 @@ var usersRouter = require('./routes/users');
 var catalogRouter = require('./routes/catalog');  //Import routes for "catalog" area of site
 
 
+
+//prod connect string in terminal...
+//heroku config:set MONGODB_URI='mongodb+srv://user:user@cluster0.kk9j2.mongodb.net/?retryWrites=true&w=majority'
+
+
 var app = express();
 
 //Set up mongoose connection
